@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts Import -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Montserrat:wght@100;400;500;700&family=Open+Sans:wght@300;400;600&family=Pacifico&family=Poppins:wght@100;300;400;500;600;700&family=Roboto&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <title>NISB - IEEE</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bcf7f44089.js" crossorigin="anonymous"></script>
+    <!-- index.js -->
+    <script src="index.js"></script>
+
+    <!-- Email JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("x5p5DWlGYlMHU6I60");
+        })();
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/Condensed---White.png" alt="" width="30" class="d-inline-block align-text-top">
+                NISB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">NISB - IEEE</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body me-auto">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">EVENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TEAM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CHAPTERS & AFFINITY GROUPS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div id="header" class="main-section">
+        <div class="container">
+            <div>
+                <h1>What is NISB?</h1>
+                <p>NISB is the IEEE student branch of National Institute of Engineering. It is one of the largest and most active student branches of Karnataka. Having been active for a decade, we have been honoured and humbled with numerous awards and accolades over time, including "The Best Student Chapter" of Region 10­ Bangalore. We organize and host a wide range of technical workshops and events. We have our odd sem fest ADROIT and even sem fest ANKURA. Electronika , IPL are few our signature events. </p>
+            </div>
+            <div>
+                <h1>Why NISB?</h1>
+                <p>NISB conducts various kinds of workshops, seminars, webinars, technical talks, competitions, hackathons, and events througout the semester to help its members for the all round development with the advancing technology. </p>
+            </div>
+            <div>
+                <h1>A Part of IEEE Bangalore Section</h1>
+                <p>IEEE Bangalore Section was established in 1977 and is one of the most vibrant and dynamic IEEE Section across globe. Over the years the strength of the section has grown steadily and currently the Section membership stands more than 8600. </p>
+            </div>
+            <div class="buttons-div">
+                <a class="btn btn-info"><i style="color:black;" class="fa-brands fa-discord"></i> CommuNIEty Server</a>
+                <a class="btn btn-primary"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                <a class="btn btn-dark"><i class="fa-brands fa-github"></i> Github</a>
+                <a class="btn btn-warning"><i style="color:black;" class="fa-brands fa-instagram"></i> Instagram</a>
+                <a class="btn btn-danger"><i class="fa-brands fa-youtube"></i> YouTube</a>
+                <a class="btn btn-success"><i class="fa-solid fa-envelope"></i> IEEE Global</a>
+            </div>
+            <h1>Read our Publications...</h1>
+            <div class="publications">
+                <div class="publication-child">
+                    <img src="https://www.nisb.in/assets/images/manas.png" alt="">
+                    <div>
+                        <h2>M A N A S</h2>
+                        NISB Even Sem Newsletter
+                        <a href="">Read more &#8594;</a>
+                    </div>
+                </div>
+                <div class="publication-child">
+                    <img src="https://www.nisb.in/assets/images/jijnasa.png" alt="">
+                    <div>
+                        <h2>J I J N A S A</h2>
+                        NISB Yearly Magazine
+                        <a href="">Read more &#8594;</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a style="margin: 10px;" href="" class="btn btn-info">Check out our Blog Here &#8594;</a>
+                <a style="margin: 10px;" href="" class="btn btn-danger">IEEE Bangalore Section Newsletters &#8594;</a>
+            </div>
+        </div>
+        <div class="gif-container">
+            <img src="images/code.png" alt="">
+        </div>
+    </div>
+
+    <!-- Chapters and Affinity Groups -->
+    <div id="chapters">
+        <h1 class="head-title">Chapters and Affinity Groups</h1>
+        <div class="main-div">
+            <div class="chapter-container">
+                <img src="https://www.nisb.in/assets/images/wie.png" width="120px" alt="">
+                <h5>Women in Engineering</h5>
+                <p>IEEE Women in Engineering (WIE) is one of the largest international professional organization dedicated to promoting women engineers and scientists and inspiring girls around the world to follow their academic interests to a career in engineering. The IEEE Women in Engineering Student Branch Affinity Group at the National Institute of Engineering was formed on 13th April 2015xs </p>
+                <a href="">Read more &#8594;</a>
+            </div>
+            <div class="chapter-container">
+                <img src="https://www.nisb.in/assets/images/wie.png" width="120px" alt="">
+                <h5>Computer Society</h5>
+                <p>IEEE has many societies under its umbrella. One of its largest and most active societies is the IEEE Computer Society. NISB has started its Computer Society chapter two years ago with only 15 members and currently has a whopping a figure of 60 members. Through NISB, IEEE students of NIE can take up student membership for the Computer Society </p>
+                <a href="">Read more &#8594;</a>
+            </div>
+            <div class="chapter-container">
+                <img src="https://www.nisb.in/assets/images/wie.png" width="120px" alt="">
+                <h5>Circuits and System Society</h5>
+                <p>The IEEE Circuits and Systems Society is the leading organization that promotes the advancement of the theory, analysis, design, tools, and implementation of circuits and systems. The field spans their theoretical foundations, applications, and architectures, as well as circuits and systems implementation of algorithms for signal and information processing. </p>
+                <a href="">Read more &#8594;</a>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <!-- Contact US -->
+    <div id="contact" class="main-section">
+        <h1 class="head-title">Contact Us</h1>
+        <div class="main-div">
+            <div class="img-div">
+                <img src="images/mail.png" alt="" class=" mail-img">
+                <p>If you have questions or just want to get in touch, use the form below. We look forward to hearing
+                    from you!</p>
+            </div>
+            <div class="contact-form">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your E-Mail">
+                <textarea name="Message" id="message" placeholder="Your Message"></textarea>
+                <button onclick="sendMail()" class="btn btn-sm btn-outline-light">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="main-section">
+        <div class="main-div">
+            <div class="footer-main">
+                <div class="footer-header">
+                    <img src="images/Condensed---White.png" alt="" width="30" class="d-inline-block align-text-top">
+                    <h3>NISB</h3>
+                </div>
+                <p class="light-text">NIE IEEE Student Branch<br>
+                    The National Institute of Engineering<br>
+                    Mysuru </p>
+            </div>
+            <div class="footer-main">
+                <p>Girija Patil<br>
+                    +91 86185 38593<br>
+                    <a href="mailto:girijapatil.18@ieee.org">girijapatil.18@ieee.org</a>
+                </p>
+                <div class="social-div">
+                    <div class="social-icon-div">
+                        <img src="images/instagram.png" alt="" class="social-icons invert">
+                    </div>
+                    <div class="social-icon-div">
+                        <img src="images/linkedin.png" alt="" class="social-icons invert">
+                    </div>
+                    <div class="social-icon-div">
+                        <img src="images/youtube.png" alt="" class="social-icons invert">
+                    </div>
+                    <div class="social-icon-div">
+                        <img src="images/github.png" alt="" class="social-icons invert">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p style="opacity:0.4;text-align: center;margin-top: 20px;">© 2021 NISB - IEEE. All Rights Reserved.</p>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
